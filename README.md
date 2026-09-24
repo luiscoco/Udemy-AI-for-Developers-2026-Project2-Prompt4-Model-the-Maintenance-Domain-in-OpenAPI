@@ -1,4 +1,4 @@
-# Equipment Maintenance Hub — Prompt 4: Extending the OpenAPI contract
+# Model the Maintenance Domain in OpenAPI
 
 This README walks through what the AI assistant did to complete Prompt 4, step by step.
 The goal is to show a **contract-first** workflow: the OpenAPI file is the single source of
