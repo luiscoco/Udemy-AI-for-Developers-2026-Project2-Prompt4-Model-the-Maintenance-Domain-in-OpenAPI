@@ -1,0 +1,20 @@
+{
+  "name": "@equipment-maintenance-hub/contract",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Single source of truth: OpenAPI spec plus generated TypeScript models.",
+  "types": "./src/generated/index.ts",
+  "files": [
+    "openapi.yaml",
+    "src"
+  ],
+  "scripts": {
+    "generate": "openapi-ts",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.99.0"
+  }
+}
